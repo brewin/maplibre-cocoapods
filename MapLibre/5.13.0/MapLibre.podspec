@@ -16,6 +16,5 @@ Pod::Spec.new do |s|
     #s.requires_arc = true
     s.vendored_frameworks = '**/Mapbox.framework'
     #s.preserve_path = '**/*.bcsymbolmap'
-    s.module_name = "MapLibre"
 end
 
