@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.requires_arc = true
     s.vendored_frameworks = 'dynamic/Mapbox.framework'
-    s.module_name = 'Mapbox'
     s.preserve_path = '**/*.bcsymbolmap'
 end
 
