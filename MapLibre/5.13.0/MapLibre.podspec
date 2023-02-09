@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
         :flatten => true
     }
     s.ios.deployment_target = '9.0'
-    m.requires_arc = true
-    m.vendored_frameworks = 'dynamic/Mapbox.framework'
-    m.module_name = 'Mapbox'
-    m.preserve_path = '**/*.bcsymbolmap'
+    s.requires_arc = true
+    s.vendored_frameworks = 'dynamic/Mapbox.framework'
+    s.module_name = 'Mapbox'
+    s.preserve_path = '**/*.bcsymbolmap'
 end
 
