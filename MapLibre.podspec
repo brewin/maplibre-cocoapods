@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.summary = 'Open source vector map solution for iOS with full styling capabilities.'
     s.platform = :ios
     s.source = { 
-        :http => "https://github.com/maptiler/maplibre-gl-native/releases/download/ios-v#{version}/Mapbox-#{version}.zip",
+        :http => "https://github.com/maplibre/maplibre-gl-native/releases/download/ios-v#{version}/Mapbox-#{version}.zip",
         :flatten => true
     }
     s.ios.deployment_target = '9.0'
