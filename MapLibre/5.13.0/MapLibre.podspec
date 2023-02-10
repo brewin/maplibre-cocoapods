@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
         :flatten => false
     }
     s.ios.deployment_target = '9.0'
-    #s.requires_arc = true
-    s.vendored_frameworks = '**/Mapbox.framework'
-    #s.preserve_path = '**/*.bcsymbolmap'
+    s.requires_arc = true
+    s.vendored_frameworks = '**/Mapbox.xcframework'
 end
 
