@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.source = { 
         :http => "https://github.com/maplibre/maplibre-gl-native/releases/download/ios-v#{version}/Mapbox-#{version}.zip",
-        :flatten => true
+        :flatten => false
     }
     s.ios.deployment_target = '9.0'
     s.vendored_frameworks = '**/Mapbox.xcframework'
